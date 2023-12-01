@@ -1,4 +1,3 @@
-
 def solution(A):
     # Implement your solution here
     apperances = dict()
@@ -14,6 +13,7 @@ def solution(A):
         if apperances[num] == 1:
             return num
 
+
 def solution(A):
     appearance = set()
     for val in A:
@@ -24,12 +24,7 @@ def solution(A):
     return appearance.pop()
 
 
-
-
-
-
-
 if __name__ == '__main__':
-    A = [9,3,9,3,9,1,9,10,8,10,8]
+    A = [9, 3, 9, 3, 9, 1, 9, 10, 8, 10, 8]
     num = solution2(A)
     print(num)

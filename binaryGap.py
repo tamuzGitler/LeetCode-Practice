@@ -18,7 +18,7 @@ def solution(N):
 
     prev_index = one_indexs[0]
     for index in one_indexs[1:]:
-        cur_gap = index -1 - prev_index
+        cur_gap = index - 1 - prev_index
         if cur_gap > longest_gap:
             longest_gap = cur_gap
         prev_index = index
@@ -43,4 +43,3 @@ if __name__ == '__main__':
     print(solution(832))
     print(solution(1965))
     print(solution(1025))
-

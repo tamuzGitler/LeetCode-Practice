@@ -1,5 +1,3 @@
-
-
 # naive sol - O(N^2)
 # iterate over the array O(N), for each elem calc the two sums O(N)
 
@@ -19,6 +17,7 @@ def solution(A):
             minAbsDiff = curMinAbsDiff
 
     return minAbsDiff
+
 
 if __name__ == '__main__':
     A = []
