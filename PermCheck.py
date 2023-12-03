@@ -1,4 +1,4 @@
-# O(N) solution - create a set with permutation  
+# O(N) solution - create a set with permutation
 # iterate over array to check if all of the values in the permutation appears
 def solution(A):
     permutation = set(range(1, len(A) + 1))
