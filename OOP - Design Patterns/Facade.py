@@ -26,6 +26,7 @@ class Oven:
 
 class Chef:
     def __init__(self):
+        # TODO: Notice the fields are private!
         self._flour = Flour()
         self._sauce = Sauce()
         self._toppings = Toppings()

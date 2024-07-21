@@ -6,7 +6,7 @@ class A:
 
 
 class Singelton:
-    _instance = None
+    _instance = None  # TODO: Static field
 
     # cls represents the class that is needed to be instantiated,
     # __new__ - automaticily static method
